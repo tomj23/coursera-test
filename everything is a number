@@ -1,0 +1,16 @@
+
+
+to represent the sensed stuff (information, data) as binary digits/states  - which can be easily stored in a computer
+
+number - a sign/symbol re-presenting something
+
+to re-present a domain as some structures and changes within as operations - add, substract, create new, delete - CRUD operations
+
+ever more can be stored/represented - function of sensing/sending/storing/computing capability.
+
+some core concepts of D3 are becoming clear: 
+  loading data, 
+  generating new elements, 
+  and using data values to derive attribute values for those elements.
+
+
