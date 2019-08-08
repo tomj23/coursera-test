@@ -4,19 +4,18 @@
 public class PascalTriangle { 
   
     public static void main (String[] args) { 
-        printPascalTriangle(1); 
+        printPascalTriangle(10); 
     }  
 
     public static void printPascalTriangle(int n) { 
-        for(int line = 1; line <= n; line++) { 
-            int C=1; // used to represent C(line, i) 
+        for (int line = 1; line <= n; line++) { 
+            int aValue = 1; 
             for (int i =n-line; i > 0; i--) {
             	System.out.printf(" ");
             }
-            for(int i = 1; i <= line; i++)  {  
-                // The first value in a line is always 1 
-                System.out.print(C+" "); 
-                C = C * (line - i) / i;  
+            for (int i = 1; i <= line; i++)  {  
+                System.out.print(aValue + " "); 
+                aValue = aValue * (line - i) / i;  
             } 
         System.out.println(); 
         } 
